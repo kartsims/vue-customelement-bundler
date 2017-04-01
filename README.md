@@ -2,6 +2,8 @@
 
 Example using Webpack to bundle one or many Vue.js components into a single .js file that **can be used in any HTML/JS application.**
 
+Refer to [this post on vuetips.com](http://vuetips.com/vue-web-components) for more information.
+
 ```html
 <html>
   <body>
@@ -18,7 +20,7 @@ Example using Webpack to bundle one or many Vue.js components into a single .js 
 </html>
 ```
 
-## Add components
+## How it works
 
 Components are registered in `src/main.js`.
 
@@ -29,9 +31,7 @@ To add a component :
 - Add a `.vue` file in `src/components`
 - Register the component in `src/main.js`
 
-## Test the bundle
-
-You can open the `demo/index.html` in your browser and see the result.
+## Development
 
 To test your components :
 
@@ -40,10 +40,12 @@ To test your components :
 - Edit `src/main.js` or your component file
 - Refresh the page
 
-## Bundle a release file
+## Bundle a release
 
 ```
 npm run build
 ```
 
 File will be placed in `dist/my-vue-component.js`.
+
+Refer to `webpack.config.js` for customization options.
