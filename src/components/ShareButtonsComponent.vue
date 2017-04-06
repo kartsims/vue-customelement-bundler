@@ -23,7 +23,6 @@ export default {
 }
 </script>
 
-
 <style scoped>
   #share-buttons a {
     display: inline-block;
