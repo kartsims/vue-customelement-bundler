@@ -10,7 +10,12 @@
     "dev": "webpack --watch"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/kartsims/vue-customelement-bundler.git"
+  },
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
