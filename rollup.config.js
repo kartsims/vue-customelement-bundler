@@ -8,6 +8,7 @@ import fs from 'fs'
 
 export default {
     entry: 'src/main.js',
+    dest: 'dist/my-vue-component.js',
     plugins: [
         replace({
             'process.env.NODE_ENV': JSON.stringify('production')
