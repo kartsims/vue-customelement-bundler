@@ -5,5 +5,5 @@ import VueCustomElement from 'vue-custom-element'
 Vue.use(VueCustomElement)
 
 // import and register your component(s)
-import ShareButtonsComponent from './components/ShareButtonsComponent'
+import ShareButtonsComponent from './components/ShareButtonsComponent.vue'
 Vue.customElement('share-buttons', ShareButtonsComponent)

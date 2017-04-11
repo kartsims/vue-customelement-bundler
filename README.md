@@ -1,6 +1,6 @@
 # Vue Custom Element Bundler
 
-Example using Webpack to bundle one or many Vue.js components into a single .js file that **can be used in any HTML/JS application.**
+Example using Rollup to bundle one or many Vue.js components into a single .js file that **can be used in any HTML/JS application.**
 
 Refer to [this post on vuetips.com](http://vuetips.com/vue-web-components) for more information.
 
@@ -37,7 +37,7 @@ To add a component :
 
 To test your components :
 
-- Launch webpack : `npm run dev` (watch mode)
+- Launch rollup : `npm run dev` (watch mode)
 - Open `demo/index.html` in a browser
 - Edit `src/main.js` or your component file
 - Refresh the page
@@ -50,4 +50,4 @@ npm run build
 
 File will be placed in `dist/my-vue-component.js`.
 
-Refer to `webpack.config.js` for customization options.
+Refer to `rollup.config.js` for customization options.
