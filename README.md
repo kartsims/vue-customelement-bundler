@@ -4,6 +4,8 @@ Example using Webpack to bundle one or many Vue.js components into a single .js 
 
 Refer to [this post on vuetips.com](http://vuetips.com/vue-web-components) for more information.
 
+Check out [this example using rollup.js](https://github.com/kartsims/vue-customelement-bundler/tree/rollup) for a 25% lighter file (when gzipped) !
+
 ```html
 <html>
   <body>
