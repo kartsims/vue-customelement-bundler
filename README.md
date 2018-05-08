@@ -51,3 +51,13 @@ npm run build
 File will be placed in `dist/my-vue-component.js`.
 
 Refer to `webpack.config.js` for customization options.
+
+## Browser compability
+
+You may add the web component polyfill if you wish to support older browsers.
+
+```
+import 'document-register-element/build/document-register-element'
+```
+
+Thanks to @visualjerk for this proposal.
